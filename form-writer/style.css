@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.5;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+input {
+    padding: 1rem;
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.centering {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.w-50 {
+    width: 50%;
+}
